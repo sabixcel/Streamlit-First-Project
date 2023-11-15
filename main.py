@@ -34,7 +34,7 @@ with dataset:
     st.header('NYC taxi dataset')
     st.text('I found this dataset on blablabla.com')
 
-    taxi_data = get_data('data/taxi_data.csv')
+    taxi_data = get_data('taxi_data.csv')
     #st.write(taxi_data.head())
 
     st.subheader('Pick-up location ID distribution on the NYC dataset')
